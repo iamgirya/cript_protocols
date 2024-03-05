@@ -175,13 +175,13 @@ int main()
 {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-	Polynom polyTrue = Polynom::byNumber(32+4+1);
-	cout << polynomIsIrreducible(polyTrue) << endl << endl;
+	Polynom polyTrue = Polynom::byNumber(16+2+1);
+	/*cout << polynomIsIrreducible(polyTrue) << endl << endl;
 
 
 	Polynom polyFalse = Polynom::byNumber(128+1);
-	cout << polynomIsIrreducible(polyFalse) << endl << endl;
+	cout << polynomIsIrreducible(polyFalse) << endl << endl;*/
 
 
-	cout << polynomIsPrimitiveInGP(polyTrue, 5) << endl << endl;
+	cout << polynomIsPrimitiveInGP(polyTrue, 4) << endl << endl;
 }
